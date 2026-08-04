@@ -1,7 +1,7 @@
 # NehlsRamos_etal_JxB_2027
 Supplementary data and code for the publication Nehls-Ramos et al. 2027
 
-Code and Dataset for "A 2-carboxy-d-arabinitol 1-phosphate Phosphatase (CA1Pase) Cysteine Pair Regulates Redox Activity by Dimerisation in vitro in Vigna unguiculata"
+Code and Dataset for "A 2-carboxy-d-arabinitol 1-phosphate Phosphatase (CA1Pase) Cysteine Pair Regulates Redox Activity by Dimerisation _in vitro_ in _Vigna unguiculata_"
 
 Authors: Connor Nehls-Ramos, Elizabete Carmo-Silva, Douglas J. Orr
 
