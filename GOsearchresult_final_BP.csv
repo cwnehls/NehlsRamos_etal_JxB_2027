@@ -1,0 +1,52 @@
+GO:0009987	P	1.00	cellular process
+GO:0044237	P	0.99	cellular metabolic process
+GO:0006796	P	0.95	phosphate-containing compound metabolic process
+GO:0071704	P	0.91	organic substance metabolic process
+GO:0044699	P	0.88	single-organism process
+GO:0044763	P	0.87	single-organism cellular process
+GO:0044238	P	0.86	primary metabolic process
+GO:0044710	P	0.85	single-organism metabolic process
+GO:1901564	P	0.84	organonitrogen compound metabolic process
+GO:0044281	P	0.84	small molecule metabolic process
+GO:1901360	P	0.82	organic cyclic compound metabolic process
+GO:1901135	P	0.82	carbohydrate derivative metabolic process
+GO:0046483	P	0.82	heterocycle metabolic process
+GO:0034641	P	0.82	cellular nitrogen compound metabolic process
+GO:0019752	P	0.82	carboxylic acid metabolic process
+GO:0019637	P	0.82	organophosphate metabolic process
+GO:0006725	P	0.82	cellular aromatic compound metabolic process
+GO:0044723	P	0.81	single-organism carbohydrate metabolic process
+GO:0009058	P	0.81	biosynthetic process
+GO:1901576	P	0.80	organic substance biosynthetic process
+GO:0051186	P	0.80	cofactor metabolic process
+GO:0019693	P	0.80	ribose phosphate metabolic process
+GO:0046128	P	0.79	purine ribonucleoside metabolic process
+GO:0032787	P	0.79	monocarboxylic acid metabolic process
+GO:0009205	P	0.79	purine ribonucleoside triphosphate metabolic process
+GO:0009150	P	0.79	purine ribonucleotide metabolic process
+GO:0006732	P	0.79	coenzyme metabolic process
+GO:0046496	P	0.78	nicotinamide nucleotide metabolic process
+GO:0044724	P	0.78	single-organism carbohydrate catabolic process
+GO:0044711	P	0.78	single-organism biosynthetic process
+GO:0006757	P	0.78	ATP generation from ADP
+GO:0006090	P	0.78	pyruvate metabolic process
+GO:0044283	P	0.76	small molecule biosynthetic process
+GO:0006006	P	0.75	glucose metabolic process
+GO:0016051	P	0.74	carbohydrate biosynthetic process
+GO:0006096	P	0.74	glycolytic process
+GO:0019319	P	0.73	hexose biosynthetic process
+GO:0065007	P	0.71	biological regulation
+GO:0050794	P	0.69	regulation of cellular process
+GO:0006094	P	0.68	gluconeogenesis
+GO:0043456	P	0.67	regulation of pentose-phosphate shunt
+GO:0015979	P	0.36	photosynthesis
+GO:0050896	P	0.21	response to stimulus
+GO:0009628	P	0.19	response to abiotic stimulus
+GO:0010224	P	0.18	response to UV-B
+GO:0016311	P	0.17	dephosphorylation
+GO:1901566	P	0.16	organonitrogen compound biosynthetic process
+GO:0044249	P	0.16	cellular biosynthetic process
+GO:1901362	P	0.14	organic cyclic compound biosynthetic process
+GO:0044271	P	0.14	cellular nitrogen compound biosynthetic process
+GO:0019438	P	0.14	aromatic compound biosynthetic process
+GO:0018130	P	0.14	heterocycle biosynthetic process
