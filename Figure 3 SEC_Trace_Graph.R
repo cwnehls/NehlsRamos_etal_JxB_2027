@@ -44,7 +44,7 @@ peak_points <- df_selected[peak_indices, ]
 ggplot(data = subset(df_selected, !is.na(run)), aes(x = volume_ml, y = Abs_280nm_mAU)) +
   geom_segment(data = peak_points, aes(x = volume_ml, xend = volume_ml, y = 0, yend = Abs_280nm_mAU),inherit.aes = FALSE, linetype = "dashed", colour = "darkgrey", size = 1.5) +
   geom_line(linetype = "solid", linewidth = 2, color = "#fde725") + #Change colour as needed for given protein
-  labs(title = "", x = "Elution Volume (ml)", y = "Absorption 280mAU") + 
+  labs(title = "", x = "Elution Volume (mL)", y = "Absorption 280mAU") + 
   ylim(-10,100) + #may need modification to fit the particular peaks
   xlim(12,17) + 
   scale_color_viridis_d(option = "viridis") +
