@@ -10,3 +10,5 @@ The R code supplied in this folder is for the analyses and production of plots f
 Code file names are presented in connection to the figure or section of paper relevant for said code. The "S" signifies Supplemental
 
 Branches with the name "Sup_Data" contain supplemental data pertaining to their title.
+
+NOTE: In certain cases Cysteines are annotated C306 and C311 in place of C292 and C296, but refer to the same cysteines
