@@ -2,7 +2,7 @@
 
 
 # CA1Pase Activity Across Redox States in 10mM Glutathione
-# Date of last edit: 04/08/2026
+# Date of last edit: 31/10/2026
 # Description: To plot and compare the CA1Pase broad phosphatase activity to CRBP from the Improved Phosphate Detection Assay at different proportions of GSH to GSSG in 10mM Glutathione. 
   # This plots the activity of wild type VuCA1Pase as well as the three cysteine to alanine mutant variants. Additional code for further analysis is included and can be used by removing the additional #'s present.
 
@@ -25,7 +25,7 @@ df <- read.csv("~/CA1Pase Paper/20260514_VuC_Redox_IPDA(Data).csv")
 
 ## Select group
 
-selected <- c("C306A_C311A") #select the variant you wish to graph
+selected <- c("C292A_C297A") #select the variant you wish to graph
 
 ## filter for given group & range
 df_selected <- df %>%
@@ -108,7 +108,7 @@ ggplot(df_selected, aes(x = treatment_percentGSH, y = activity, group = 1)) +
         axis.title = element_text(size = 24, face = "bold"), legend.position = "bottom", legend.text = element_text(size = 14),
         legend.title = element_text(size = 18, face = "bold"), plot.title = element_text(size = 24, face = "bold")) +
   labs(title = "",
-       x = "% Reduced (10mM Glutathione)", y = "Activity (umol*mg-1*min-1)" ) + 
+       x = "% Reduced (10mM Glutathione)", y = expression(bold(Activity~(umol~mg^{-1}~min^{-1})))) + 
   theme(panel.border = element_rect(color = "black", fill = NA, linewidth = 1))
 
 # ---- End ----
