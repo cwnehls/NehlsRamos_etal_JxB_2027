@@ -25,7 +25,7 @@ df <- read.csv("~/CA1Pase Paper/20260514_VuC_Redox_IPDA(Data).csv")
 
 ## Select group
 
-selected <- c("C306A_C311A") #select the variant you wish to graph
+selected <- c("C292A_C297A") #select the variant you wish to graph
 
 ## filter for given group & range
 df_selected <- df %>%
