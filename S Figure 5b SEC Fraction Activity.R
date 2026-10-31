@@ -2,7 +2,7 @@
 
 
 # CA1Pase Activity Relative by SEC Elution Fraction
-# Date of last edit: 04/08/2026
+# Date of last edit: 31/10/2026
 # Description: To plot and compare the CA1Pase broad phosphatase activity to CRBP from the Improved Phosphate Detection Assay across different SEC elution fractions.
   # Additional code for further analysis is included and can be used by removing the additional #'s present.
 
@@ -15,6 +15,7 @@ library(dplyr)
 library(viridisLite) # for accessible colours
 library(FSA)         # For dunnTest()
 library(rcompanion)  # For cldList()
+library(agricolae)
 
 
 # ---- data Loading and prep -----
@@ -54,6 +55,8 @@ df <- read.csv("~/CA1Pase Paper/VuC_SEC_Fraction_Activity.csv")
 res_aov <- aov(activity ~ fraction,
                data = df)
 
+HSD_res_aov  <- HSD.test(res_aov , trt = c("fraction"), console = TRUE)
+
 summary(res_aov)
 
 # ---- Prepare Data for Plotting ----
@@ -83,7 +86,7 @@ ggplot(df, aes(x = fraction, y = activity, group = 1)) +
         axis.title = element_text(size = 24, face = "bold"), legend.position = "none", legend.text = element_text(size = 18),
         legend.title = element_text(size = 24), plot.title = element_text(size = 24, face = "bold")) +
   labs(title = "",
-       x = "SEC Eluted Fraction", y = "Activity (umol*min-1*mg-1)" ) + 
+       x = "SEC Eluted Fraction", y = expression(bold(Activity(µmol~min^{-1}~mg^{-1})) + 
   theme(panel.border = element_rect(color = "black", fill = NA, linewidth = 1))
 
 # ---- End ----
