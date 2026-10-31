@@ -2,7 +2,7 @@
 
 
 # SEC Trace Graphing
-# Date of last edit: 04/08/2026
+# Date of last edit: 31/10/2026
 # Description: To plot and compare the SEC column trace 280nm readings for Protein size analysis.
   # Additional code for further analysis is included and can be used by removing the additional #'s present.
 
