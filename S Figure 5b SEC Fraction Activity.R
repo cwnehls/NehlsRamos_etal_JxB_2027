@@ -1,4 +1,4 @@
-# ---- Script header ----
+ss# ---- Script header ----
 
 
 # CA1Pase Activity Relative by SEC Elution Fraction
@@ -56,6 +56,8 @@ res_aov <- aov(activity ~ fraction,
 
 summary(res_aov)
 
+HSD_res_aov <- HSD.test(res_aov, trt = c("fraction"), console = TRUE)
+
 # ---- Prepare Data for Plotting ----
 
 ## Make summary dataframe
@@ -83,7 +85,7 @@ ggplot(df, aes(x = fraction, y = activity, group = 1)) +
         axis.title = element_text(size = 24, face = "bold"), legend.position = "none", legend.text = element_text(size = 18),
         legend.title = element_text(size = 24), plot.title = element_text(size = 24, face = "bold")) +
   labs(title = "",
-       x = "SEC Eluted Fraction", y = "Activity (umol*min-1*mg-1)" ) + 
+       x = "SEC Eluted Fraction", y = expression(bold(Activity~(µmol~min^{-1}~mg^{-1})))) + 
   theme(panel.border = element_rect(color = "black", fill = NA, linewidth = 1))
 
 # ---- End ----
