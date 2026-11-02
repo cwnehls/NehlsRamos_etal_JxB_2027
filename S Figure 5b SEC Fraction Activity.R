@@ -15,6 +15,7 @@ library(dplyr)
 library(viridisLite) # for accessible colours
 library(FSA)         # For dunnTest()
 library(rcompanion)  # For cldList()
+library(agricolae)
 
 
 # ---- data Loading and prep -----
