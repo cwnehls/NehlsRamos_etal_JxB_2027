@@ -1,7 +1,7 @@
 # NehlsRamos_etal_JxB_2027
 Supplementary data and code for the publication Nehls-Ramos et al. 2027
 
-Code and Dataset for "A 2-carboxy-d-arabinitol 1-phosphate Phosphatase (CA1Pase) Cysteine Pair Regulates Redox Activity by Dimerisation _in vitro_ in _Vigna unguiculata_"
+Code and Dataset for "Redox regulation of 2-carboxy-D-arabinitol 1-phosphate phosphatase in Fabaceae is associated with high Rubisco dark inhibition"
 
 Authors: Connor Nehls-Ramos, Elizabete Carmo-Silva, Douglas J. Orr
 
@@ -11,4 +11,3 @@ Code file names are presented in connection to the figure or section of paper re
 
 Branches with the name "Sup_Data" contain supplemental data pertaining to their title.
 
-NOTE: In certain cases Cysteines are annotated C306 and C311 in place of C292 and C296, but refer to the same cysteines
