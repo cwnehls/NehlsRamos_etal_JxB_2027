@@ -16,11 +16,11 @@ library(pracma) # for peaks
 # ---- data Loading and prep -----
 
 ## Read the Excel file into a data frame
-df <- read_csv("~/CA1Pase Paper/SEC_Runs_CA1Pases.csv")
+df <- read_csv("~/CA1Pase Paper/SEC_Runs_CA1Pases_updated.csv")
 
 ## Select group
 
-selected <- c("20260305_VuC_Old_5xConc_1mMFBP_SEC")
+selected <- c("20260305_VuC_251125_5xConc_1mMFBP_SEC")
 
 
 ## filter for given group & range
