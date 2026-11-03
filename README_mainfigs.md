@@ -10,9 +10,9 @@ The R code supplied in this folder is for the analyses and production of plots f
 Code file names are presented in connection to the figure or section of paper relevant for said code. The "S" signifies Supplemental
 
 Note for CSVs:
-VuC_SEC_Fraction_Activity.csv -> results from 20260528_VuC_SEC_A280_TSP.csv which contain phosphatase activity included
+VuC_SEC_Fraction_Activity.csv -> results from 20260528_VuC_SEC_A280_TSP.csv and 20260528_VuC_SEC_FBP_IPDA.csv
   fraction = the eluted fractions for CA1Pase SEC run 20260528
-  activity = CA1Pase activity in ten minutes of reaction time (nmoles Pi / uM CA1Pase)
+  activity = CA1Pase activity (µmol min-1 mg-1)
 VuC_Redox_IPDA(Data) -> results from 20260514_VuC_Redox_IPDA.csv
-  activity = CA1Pase activity (nmole Pi
+  activity = CA1Pase activity (µmol min-1 mg-1)
   relative_activity = activity relative to VuC at 0% GSH
