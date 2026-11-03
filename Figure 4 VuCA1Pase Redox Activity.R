@@ -21,7 +21,7 @@ library(rcompanion)  # For cldList()
 
 
 #### Read the Excel file into a data frame
-df <- read.csv("~/CA1Pase Paper/20260514_VuC_Redox_IPDA(Data).csv")
+df <- read.csv("~/CA1Pase Paper/VuC_Redox_IPDA(Data).csv")
 
 ## Select group
 
