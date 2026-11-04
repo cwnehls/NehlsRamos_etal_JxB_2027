@@ -2,7 +2,7 @@
 
 
 # SEC Trace Graphing
-# Date of last edit: 04/08/2026
+# Date of last edit: 04/11/2026
 # Description: To plot and compare the SEC column trace 280nm readings for Protein size analysis.
   # Additional code for further analysis is included and can be used by removing the additional #'s present.
 
@@ -16,7 +16,7 @@ library(pracma) # for peaks
 # ---- data Loading and prep -----
 
 ## Read the Excel file into a data frame
-df <- read_csv("~/CA1Pase Paper/SEC_Runs_CA1Pases_updated.csv")
+df <- read_csv("~/SEC_Runs_CA1Pases_updated.csv")
 
 ## Select group
 
