@@ -9,4 +9,4 @@ Code file names are presented in connection to the figure or section of paper re
 
 Branches with the name "Sup_Data" contain supplemental data pertaining to their title.
 
-The .ent file is an older type of .pdb file for protein crystal structures.
+The .ent file is an older type of .pdb file for protein crystal structures. The code after pdb in the file name is entry code for the protein.
