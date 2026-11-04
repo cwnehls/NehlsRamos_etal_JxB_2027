@@ -2,7 +2,7 @@
 
 
 # CA1Pase Activity Relative by SEC Elution Fraction
-# Date of last edit: 11/01/2026
+# Date of last edit: 04/11/2026
 # Description: To plot and compare the CA1Pase broad phosphatase activity to CRBP from the Improved Phosphate Detection Assay across different SEC elution fractions.
   # Additional code for further analysis is included and can be used by removing the additional #'s present.
 
@@ -21,7 +21,7 @@ library(rcompanion)  # For cldList()
 
 
 #### Read the Excel file into a data frame
-df <- read.csv("~/CA1Pase Paper/VuC_SEC_Fraction_Activity.csv")
+df <- read.csv("~/VuC_SEC_Fraction_Activity.csv")
 
 
 # Validate for 1 way ANOVA
