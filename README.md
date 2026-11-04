@@ -7,5 +7,5 @@ Authors: Connor Nehls-Ramos, Elizabete Carmo-Silva, Douglas J. Orr
 
 Code file names are presented in connection to the figure or section of paper relevant for said code. The "S" signifies Supplemental
 
-.pdb files obtained form the Protein Data Bank. 
+.pdb files obtained from the Protein Data Bank. 
 .zip files contain AlphaFold outputs as described in the manuscript.
