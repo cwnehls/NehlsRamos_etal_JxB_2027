@@ -2,7 +2,7 @@
 
 
 # CA1Pase Activity Across Redox States in 10mM Glutathione
-# Date of last edit: 14/08/2026
+# Date of last edit: 04/11/2026
 # Description: To plot and compare the CA1Pase broad phosphatase activity to CRBP from the Improved Phosphate Detection Assay at different proportions of GSH to GSSG in 10mM Glutathione. 
   # This plots the activity of wild type VuCA1Pase as well as the three cysteine to alanine mutant variants. Additional code for further analysis is included and can be used by removing the additional #'s present.
 
@@ -21,7 +21,7 @@ library(rcompanion)  # For cldList()
 
 
 #### Read the Excel file into a data frame
-df <- read.csv("~/CA1Pase Paper/VuC_Redox_IPDA(Data).csv")
+df <- read.csv("~/VuC_Redox_IPDA(Data).csv")
 
 ## Select group
 
